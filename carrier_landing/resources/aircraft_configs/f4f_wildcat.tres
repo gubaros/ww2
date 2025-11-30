@@ -1,0 +1,24 @@
+[gd_resource type="Resource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/aircraft/aircraft_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+aircraft_name = "Grumman F4F Wildcat"
+nation = "USA"
+mass = 3400.0
+wing_area = 26.0
+max_engine_power = 6900.0
+base_lift_coefficient = 1.25
+base_drag_coefficient = 0.08
+parasitic_drag = 0.025
+flap_lift_bonus = PackedFloat32Array(0.0, 0.15, 0.28, 0.4)
+flap_drag_penalty = PackedFloat32Array(0.0, 0.05, 0.09, 0.14)
+gear_drag_penalty = 0.07
+gear_retractable = true
+stall_speed = 35.0
+max_speed = 110.0
+critical_aoa = 16.0
+approach_speed_recommended = 45.0
+pitch_rate = 11.0
+throttle_response = 0.5

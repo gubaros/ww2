@@ -1,0 +1,16 @@
+[gd_resource type="Resource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/environment/weather_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+weather_name = "Clear"
+air_density_modifier = 1.0
+visibility = 1.0
+base_wind_speed = 3.0
+wind_direction = 180.0
+turbulence_intensity = 0.1
+gust_frequency = 0.0
+gust_strength = 0.0
+rain_intensity = 0.0
+deck_friction_modifier = 1.0

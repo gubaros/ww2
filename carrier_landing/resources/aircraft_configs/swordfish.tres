@@ -1,0 +1,24 @@
+[gd_resource type="Resource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/aircraft/aircraft_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+aircraft_name = "Fairey Swordfish"
+nation = "UK"
+mass = 2200.0
+wing_area = 56.0
+max_engine_power = 4200.0
+base_lift_coefficient = 1.4
+base_drag_coefficient = 0.09
+parasitic_drag = 0.03
+flap_lift_bonus = PackedFloat32Array(0.0, 0.18, 0.32, 0.45)
+flap_drag_penalty = PackedFloat32Array(0.0, 0.06, 0.11, 0.17)
+gear_drag_penalty = 0.08
+gear_retractable = false
+stall_speed = 25.0
+max_speed = 55.0
+critical_aoa = 18.0
+approach_speed_recommended = 35.0
+pitch_rate = 8.0
+throttle_response = 0.35

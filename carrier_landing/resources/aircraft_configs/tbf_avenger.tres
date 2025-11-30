@@ -1,0 +1,24 @@
+[gd_resource type="Resource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/aircraft/aircraft_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+aircraft_name = "Grumman TBF Avenger"
+nation = "USA"
+mass = 7800.0
+wing_area = 54.5
+max_engine_power = 11000.0
+base_lift_coefficient = 1.15
+base_drag_coefficient = 0.09
+parasitic_drag = 0.035
+flap_lift_bonus = PackedFloat32Array(0.0, 0.16, 0.3, 0.43)
+flap_drag_penalty = PackedFloat32Array(0.0, 0.06, 0.12, 0.18)
+gear_drag_penalty = 0.09
+gear_retractable = true
+stall_speed = 40.0
+max_speed = 95.0
+critical_aoa = 15.0
+approach_speed_recommended = 55.0
+pitch_rate = 9.0
+throttle_response = 0.4
