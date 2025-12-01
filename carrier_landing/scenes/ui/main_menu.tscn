@@ -1,0 +1,20 @@
+[gd_scene format=3]
+
+[node name="MainMenu" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+
+[node name="Title" type="Label" parent="."]
+text = "Carrier Landing"
+
+[node name="StartButton" type="Button" parent="."]
+text = "Nueva Partida"
+margin_top = 80.0
+margin_right = 200.0
+margin_bottom = 120.0
+
+[node name="QuitButton" type="Button" parent="."]
+text = "Salir"
+margin_top = 140.0
+margin_right = 200.0
+margin_bottom = 180.0
